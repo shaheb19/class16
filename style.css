@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* header */
+
+.header_menu{
+    background-color: #3498db;
+}
+
+.logo img{
+    width: 180px;
+
+}
+
+.menu{
+   text-align: right;
+}
+.menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 62px;
+    border-right: 1px solid #ddd;
+    margin-left: -4px;
+}
+.menu ul li a:hover{
+    background-color: #2980b9;
+}
+
+/* banner */
+
+.banner{
+    background-image: url(./slider2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 220px 0;
+    background-attachment: fixed;
+}
+
+
+.banner_text h2 {
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    padding: 5px 22px;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner_text h1{
+    background-color: rgba(52, 152, 219,.6);
+    color: white;
+    font-size: 40px;
+    max-width: 510px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+   
+}
+
+/* about */
+
+.about_text p{
+    width: 700px;
+    margin: auto;
+    
+}
+
+.about{
+    background-color: #EAEFEF;
+}
+
+/* service */
+
+.service{
+    background-color: #E5E5E4;
+}
+
+.fa-lightbulb {
+    font-size: 30px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #3498db;
+    line-height: 50px;
+    color: white;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 10px;
+}
+
+/* product */
+
+.product img{
+    width: 250px;
+    height: auto;
+}
+
+.notice h1{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.list ul{
+    list-style: none;
+    padding-left: 0;
+}
+.list ul li {
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* contact */
+
+.contact_form{
+    
+}
+
+.map iframe{
+    max-width: 100%;
+}
+
+/* footer */
+
+.footer{
+    background-color: #2E2F31;
+    padding-top: 10px;
+}
+
+.copy p{
+  margin-bottom: 0;
+   color: white;
+   line-height: 37px;
+}
+
+.social_menu{}
+.social_menu ul{
+    list-style: none;
+}
+.social_menu li{
+    display: inline-block;
+}
+.social_menu li a{
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+    line-height: 37px;
+}
